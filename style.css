@@ -1,0 +1,581 @@
+.header-nav{
+  display: flex;
+  justify-content: flex-end; /* Выравнивание по правому краю */
+  align-items: flex-start;   /* Поднимает блок к верхнему краю контейнера */
+  width: 100%;
+  height: 10%;
+  top: 12px;
+  margin-left: 1%;
+  
+  }
+  .container{
+    max-width:100%;
+    margin:0 auto;
+    padding:0 30px;
+    position: relative;
+  }
+  
+   #leftSideBar {
+      background-color:white;
+      margin-top:12px;
+  }
+  #nav-list{
+      width: 98px;
+      height: 108px;
+      margin-left: auto; /* Центрирование блока по горизонтали */
+      margin-right: 315px; /* Центрирование блока по горизонтали */
+      display: grid; /* Включаем Grid */
+      place-items: center; /* Центрирование содержимого блока */
+  }
+  .menu{      
+      list-style: none; /* Убираем точки (маркеры) */
+      opacity: 100;
+      padding: 0; /* Убираем отступы */
+      margin: 0; /* Убираем внешние отступы */
+      font-family: "Roboto", sans-serif;
+      font-weight: 100;
+      font-size: 18px;
+      font-style: normal;
+      gap: 8px; 
+  }
+  .menu li {
+  text-align: left;
+  }
+  #rightSideBar {
+      background-color:white;
+      margin-right: 1%;
+      margin-top: 12px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21.09px;
+      text-align: left;
+      top: -50px;
+  }
+  
+  
+  
+      .content-row1{
+        display: flex;
+        align-items:flex-end ;
+        justify-content: space-between;
+      }
+      #link{
+          font-family: Roboto;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 21.09px;
+          text-align: left;
+          text-decoration: underline;
+          padding-bottom: 80px;
+        
+          }
+      
+          .text0{
+              width: 794px;
+              height: 258px;  
+              font-family: Helvetica;
+              font-size: 72px;
+              font-weight: 400;
+              line-height: 86.4px;
+              text-align: left;   
+          }
+          
+          #hero-text2{
+              width: 445px;
+              height: 84px;
+              top: 458px;
+             
+              gap: 0px;
+              opacity: 0px;            
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 1,5;
+          text-align: left;
+          top:130px;
+          }
+        .content-row2{
+          display: flex;
+          align-items:flex-end;
+          justify-content: space-between;
+          max-width:100%;
+          
+      
+        }
+        #bigImg {
+          max-width: 100%;
+          height: auto;
+          float: right; /* Прижмет изображение к правому краю */
+          
+        
+        }
+        
+        #smallImg {
+          width: 30%;
+          height: auto;
+          float: left; /* Если нужно, чтобы smallImg был слева */
+          
+        }
+        .content-row0{
+          display: flex;
+          align-items:flex-start;
+          justify-content: space-between;
+          margin-top: 20px;
+         
+        }
+    
+         .mebel{
+          
+         font-family: Helvetica;
+         font-size: 48px;
+         font-weight: 400;
+         line-height: 55.2px;
+         float:left; 
+         margin-top: 130px;
+      
+         }
+  
+         .text1{
+          margin-top: 130px;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 22.4px;
+          margin-right:230px
+          
+          
+          }
+  
+          .text2{
+              width: 678px;
+              height: 308px;
+              top: 230px;
+              left: 730px;
+          
+              
+          }
+  
+          #numberofyear{
+              
+              font-family: Helvetica;
+              font-size: 36px;
+              font-weight: 400;
+              line-height: 41.4px;
+              
+              
+          }
+          #numberofcount{
+              
+              font-family: Helvetica;
+              font-size: 36px;
+              font-weight: 400;
+              line-height: 41.4px;
+              
+              
+          }
+          #numberofdays{
+              
+              font-family: Helvetica;
+              font-size: 36px;
+              font-weight: 400;
+              line-height: 41.4px;
+              
+              
+          }
+          #descnumber1{
+              
+              gap: 0px;
+              opacity: 0px;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+            
+          }
+  
+          #descnumber2{
+             
+              gap: 0px;
+              opacity: 0px;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+             
+  
+          }
+          #descnumber3{
+              
+              gap: 0px;
+              opacity: 0px;
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+            
+          } 
+
+          .main{
+            margin-top:70px;
+          }
+          .mainrewiev{
+            margin-top: 70px;;
+          }
+
+          
+          #work{
+          
+              font-family: Helvetica;
+              font-size: 48px;
+              font-weight: 400;
+              line-height: 55.2px;
+              text-align: left;
+
+            
+          }
+  
+          #alg{
+        
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              text-align: left; 
+              padding-top: 40px;
+              margin-right: 50px;
+                     
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 320px);
+      grid-auto-rows: 160px;
+      
+      
+    }
+    
+    .grid{
+      display: flex;
+      justify-content: normal; /* Текст будет выравнен по левому краю */
+      padding: 10px;
+    }
+    
+    .grid-element1, .grid-element7, .grid-element9 {
+      font-family: Helvetica;
+      margin-top: -25px;
+      font-size: 36px;
+      font-weight: 200;
+      line-height: 41.4px;
+      border-bottom: 2px solid black;
+    }
+    .grid-element3{
+      font-family: Helvetica;
+      margin-top: -25px;
+      font-size: 36px;
+      font-weight: 200;
+      line-height: 41.4px;
+      border-bottom: 2px solid black;
+    }
+  
+    .grid-element5{
+      font-family: Helvetica;
+      margin-top: -25px;
+      font-size: 36px;
+      font-weight: 200;
+      line-height: 41.4px;
+      border-bottom: 2px solid black;
+    }
+    
+    .grid-element2, .grid-element4, .grid-element6, .grid-element8, .grid-element10 {
+      align-items: center; /* Выравнивание текста по вертикали внутри ячейки */
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22.4px;
+      border-bottom: 2px solid black;
+    }
+
+    .content-row6{
+      display: flex;
+      align-items:flex-start;
+      justify-content: space-between;
+      
+     
+    }
+    .projects{
+      width: 100%;
+  height: auto;
+ 
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  
+    }
+  
+    #pr{
+      width: 562px;
+      height: 66px;
+     
+  font-family: Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55.2px;
+  text-align: left;
+  
+    }
+    
+  
+    .grid-container2{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 равные колонки */
+      grid-auto-rows: 1160px;
+      width: 100%;    
+      margin: 0; /* Убираем внешние отступы */
+      padding: 0; /* Убираем внутренние отступы */
+      row-gap: 60px;
+      column-gap: 15px;
+   
+    }
+  
+    .grid-element11, .grid-element22, .grid-element33,.grid-element44,.grid-element55,.grid-element66 {
+      margin: 0px;
+      padding: 0px;
+      width: 100%; /* Растянуть изображение на всю ширину ячейки */
+      height: 100%; /* Растянуть изображение на всю высоту ячейки */
+      object-fit: cover; /* Обеспечивает растяжение без искажений */
+  
+    }
+
+   /* .grid2{
+      width: 100%; /* Растянуть изображение на всю ширину ячейки 
+      height: 100%; /* Растянуть изображение на всю высоту ячейки 
+      object-fit: cover; /* Обеспечивает растяжение без искажений 
+    }
+  */
+    .review{
+      width: 100%;
+      height: auto;
+ 
+    }
+    .content-row7{
+      display: flex;
+      align-items:flex-start;
+      justify-content: space-between;
+      
+    }
+    .grid-container3{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 равные колонки */
+      gap: 20px; /* Расстояние между элементами */
+      width: 100%; /* Таблица занимает всю ширину контейнера */
+      grid-auto-rows: 327px;
+     
+      padding: 10px; /* Отступ внутри контейнера */
+
+    
+    }
+    .grid3-element21, .grid3-element12, .grid3-element23{
+
+     display: flex; /* Включаем flexbox для центровки */
+     flex-direction: column; /* Размещаем содержимое по вертикали */
+     align-items: center; /* Центровка по горизонтали */
+     justify-content: center; /* Центровка по вертикали */
+     text-align: center; /* Выравнивание текста внутри элемента */
+     height: 100%; /* Занимает всю высоту ячейки */
+     margin: 0px;
+     padding: 0px;
+     border: 2px solid black; /* Границы элементов */
+    }
+    *#icon{
+      width: 40px;
+  height: 30px;
+  top: 5px;
+  position: relative;
+  top: 10px;
+  bottom: 50px;
+  left: 450px;
+    }
+  
+    #textHead1, #textHead2, #textHead3{
+      width: 163px;
+  height: 22px;
+ font-family: Helvetica;
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  top:20px;
+  left: 400px;
+    }
+    #mainText1, #mainText2, #mainText3{
+      width: 365px;
+      height: 101px; 
+ 
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  top:30px;
+  left: 300px;
+  position: relative;
+    }
+  
+  
+    #mainPhoto{
+ 
+  margin-top: 100px;
+  
+    }
+
+    #orderText{
+ 
+      margin-top: 60px;
+      
+        }
+  
+    #Text11{
+      width: 678px;
+  height: 66px;
+  opacity: 0px;
+  font-family: Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55.2px;
+  text-align: left;
+  
+    }
+  
+    #Text22{
+      width: 297px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+    }
+  
+  #three-column-list{
+    list-style: none; /* Убираем маркеры */
+      padding: 0px; /* Убираем отступы по умолчанию */
+      margin-top: 100px; /* Убираем отступы по умолчанию */
+  }
+  
+  #three-column-list li {
+    margin-bottom: 15px; /* Отступ между элементами */
+    padding: 5px;
+    border-bottom: 1px solid #000;
+  }
+  
+  .custom-button{
+    background-color: #212529;
+    color: white;
+    width: 176px;
+  height: 46px;
+  top: 5500px;
+  left: 730px;
+  padding: 12px 20px 12px 20px;
+  gap: 0px;
+  opacity: 0px;
+  }
+  
+  .apps{
+   
+    width: 250px;
+  height: 36px;
+  padding-top: 50px;
+  
+  gap: 8px;
+  opacity: 0px;
+  }
+  #vertical-list{
+    padding-right: 30px;
+  }
+
+  .spusk {
+    padding-top: 100px;
+    display: flex;
+    align-items:flex-end ;
+    justify-content: space-between;
+  ;
+  }
+  
+  .info1{
+    width: 209px;
+  height: 46px;
+  top: 5825px;
+  left: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+ 
+  }
+  .T1{
+    width: 112px;
+  height: 21px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0; /* Убираем внешние отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  line-height: 21px; /* Управляем межстрочным интервалом */
+  }
+  .T2{
+    width: 100%; /* Убедитесь, что элемент занимает всю доступную ширину */
+    height: auto; /* Разрешите блоку адаптироваться под содержимое */
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    line-height: 25px; /* Высота строки */
+    text-align: justify; /* Растягиваем текст по ширине */
+    white-space: nowrap;
+  }
+  
+  info2{
+    width: 397px;
+    height: 22px;
+    top:10px;
+    left: 521px;
+    gap: 0px;
+    opacity: 0px;  
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  text-align: center; /* Центрируем текст внутри */
+  }
+  
+  .info3 {
+    display: flex;
+    justify-content: space-between; /* Равномерное распределение элементов */
+    align-items: center; /* Выравнивание по вертикали */
+    width: 234px;
+    height: 21px;
+  padding-right:30px;
+    gap: 20px; /* Отступ между элементами */
+  }
+  
+  .VK {
+    width: 102px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+  }
+  
+  .TG {
+    width: 92px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+  }
